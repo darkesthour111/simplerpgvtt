@@ -47,7 +47,7 @@ Built with:
         - Right click to remove sound
     - Token layer to manipulate tokens added to the layer.
         - Right click on token to hide from player view, allows setup of map ahead of time.
-        - Access fab buttons on left to add tokens to the map, including setting the current size of the token.
+        - Access fab buttons on left to add tokens to the map, including setting the size of the token(s) to add.
     - Updates from all layers automatically transition to database for saving and player views
     - Fab Button interface to manage actions and layers.
     - Drag via mouse and zoom via scroll wheel
