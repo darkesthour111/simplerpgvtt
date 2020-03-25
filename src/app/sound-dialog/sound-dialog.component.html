@@ -1,0 +1,11 @@
+<ng-select [items]="data.sounds"
+id="soundSelect"
+bindLabel="name"
+placeholder="Select sound(s)"
+appendTo="body"
+multiple="true"
+[(ngModel)]="selectedSounds">
+</ng-select>
+    <br>
+    <a class="dialog-links" (click)="createSound()">Add Selected Sound(s)</a>
+    <a class="dialog-links" (click)="showHideSoundLayer()">Show/Hide Sound Layer</a>

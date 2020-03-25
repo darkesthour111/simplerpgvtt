@@ -1,0 +1,18 @@
+<div class="fab-container" cdkDrag>
+    <button mat-fab class="fab-toggler"
+            (click)="onToggleFab()">
+      <i class="material-icons" [@fabToggler]="{value: fabTogglerState}">add</i>
+    </button>
+    <div [@speedDialStagger]="buttons.length">
+      <button *ngFor="let btn of buttons"
+              mat-mini-fab
+              class="fab-secondary"
+              color="secondary"
+              matTooltip="{{btn.tooltip}}"
+              matTooltipPosition="right"
+              (click)="openDialog(btn.icon)">
+              
+        <i class="material-icons">{{btn.icon}}</i>
+      </button>
+    </div>
+  </div>

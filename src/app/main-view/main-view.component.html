@@ -1,0 +1,40 @@
+<mat-card class="main-card">
+<mat-card-header>
+<div mat-card-avatar class="main-logo"></div>
+<mat-card-title>Simple RPG-VTT</mat-card-title>
+<mat-card-subtitle>Simply get your games up and running.</mat-card-subtitle>
+</mat-card-header>
+<mat-card-content>
+    <div *ngIf="campaigns">
+        <h3>Select Campaign</h3>
+        <ng-select [items]="campaigns"
+        id="campaignSelect"
+        bindLabel="name"
+        bindValue="id"
+        placeholder="Select Campaign"
+        appendTo="body"
+        [(ngModel)]="selectedCampaign">
+        </ng-select>
+        
+        
+        <!-- <a *ngIf="selectedCampaign != undefined" [routerLink]="['/player', selectedCampaign]">player</a> <br>
+        <a *ngIf="selectedCampaign != undefined" [routerLink]="['/dm', selectedCampaign]">dungeon master</a> -->
+        </div>
+</mat-card-content>
+<mat-card-actions>
+    <button mat-button *ngIf="selectedCampaign != undefined" [routerLink]="['/player', selectedCampaign]">Player View</button>
+        <button mat-button *ngIf="selectedCampaign != undefined" [routerLink]="['/dm', selectedCampaign]">DM View</button>
+        <mat-divider [inset]="true"></mat-divider>
+        <h3>Database Editing</h3>
+        <ng-select [items]="tables"
+        id="tableSelect"
+        bindLabel="name"
+        bindValue="id"
+        placeholder="Select a Table to modify"
+        appendTo="body"
+        [(ngModel)]="selectedTable">
+        </ng-select>
+        <button mat-button *ngIf="selectedTable != undefined" [routerLink]="['/db', selectedTable]">Manage Data</button>
+</mat-card-actions>
+
+</mat-card>

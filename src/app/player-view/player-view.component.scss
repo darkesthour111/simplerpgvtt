@@ -1,0 +1,22 @@
+#VideoLayer{
+    // pointer-events: none;
+   z-index: 1; 
+  }
+  #Background {
+    // pointer-events: none;
+      z-index: 2;
+  }
+  #Fog {
+//    background-color: red; 
+    // pointer-events: none;
+    z-index: 3;
+  }
+  #Tokens {
+    // pointer-events: auto;
+      z-index: 4;
+  }
+  #rpg {
+    position: absolute !important; 
+    left: 0px !important; 
+    top: 0px !important;  
+  }

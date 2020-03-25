@@ -1,0 +1,22 @@
+<ng-select [items]="data.tokens"
+id="tokenSelect"
+            bindLabel="name"
+           placeholder="Select token(s)"
+           appendTo="body"
+           multiple="true"
+           [(ngModel)]="selectedTokens"
+           >
+           
+</ng-select>
+
+
+<!-- <br> -->
+<!-- <input style="width:100%; height:32px" class="red rounded" type="text" ng-model="c.data.tokenVisibleName" ng-disabled="c.data.tokenNameIncrement"  placeholder="Visible Token Name"/> -->
+
+<!-- <input type="checkbox" id="nameIncrement" [(ngModel)]="tokenNameIncrement"/><div class="sideNavText">Increment name with number?</div> -->
+<!-- <br> -->
+<!-- <div class="sideNavText" >Current Increment: {{tokenIncrement}}</div> -->
+<br>
+<input style="width:100%; height:32px" class="red rounded" type="number" min="1" max="1024" [(ngModel)]="tokenSize" placeholder="Size In Pixels" value="128">
+<br>
+<a class="dialog-links" (click)="createToken()">Add Selected Token(s)</a>

@@ -1,1 +1,40 @@
 /* You can add global styles to this file, and also import other style files */
+@import "~@ng-select/ng-select/themes/default.theme.css";
+@import '@angular/material/prebuilt-themes/deeppurple-amber.css';
+
+@import "../node_modules/ag-grid-community/src/styles/ag-grid.scss";
+@import "../node_modules/ag-grid-community/src/styles/ag-theme-balham-dark/sass/ag-theme-balham-dark-mixin.scss";
+
+.ag-theme-balham-dark {
+    @include ag-theme-balham-dark();
+}
+
+
+body{
+    background-color: black;
+}
+
+
+// .mat-dialog-content, .mat-dialog-container{overflow: visible !important;}
+// .mat-dialog-actions{clear: both;}
+.ng-dropdown-panel { //because I am not using body position:relative
+  margin-left: 8px !important;
+}
+.mat-dialog-container {
+    border: 3px solid #3c0074;
+    border-radius: 11px;
+    background-color: #101010;
+}
+.dialog-links{
+    padding: 10px 0px 0px 0px;
+    text-decoration: none;
+    text-align: center;
+    font-size: 18px;
+    color: #818181;
+    display: block;
+    transition: 0.3s;
+    font-family: "SourceSansPro", Helvetica, Arial, sans-serif;
+  }
+  .dialog-links:hover{
+    color: #f1f1f1;
+  }

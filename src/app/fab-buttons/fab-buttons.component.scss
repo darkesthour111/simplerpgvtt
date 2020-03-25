@@ -1,0 +1,33 @@
+.fab-container {
+  position: fixed;
+  left: 15px;
+  top: 15px;
+  z-index: 100;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  >div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 5px;
+    
+    button {
+      margin-top: 17px;
+    }
+  }
+}
+
+.fab-toggler {
+  float: right;
+  z-index: 100;
+  background-color: #380049;
+  color: white
+}
+
+.fab-secondary {
+  background-color: rgb(23, 23, 73);
+  color: white
+}
+

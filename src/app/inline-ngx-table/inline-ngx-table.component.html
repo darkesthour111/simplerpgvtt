@@ -1,0 +1,23 @@
+<div >
+    <div>
+    <button (click)="autoSizeAll()">Auto-Size All Columns</button>
+    <button (click)="onAddRow()">Add Row</button>
+    <button (click)="onBtRemove()">Remove Selected Row</button>
+</div>
+<div >
+    <ag-grid-angular
+    #agGrid
+    id="grid"
+    style="width: 100%; height: 100vh;"
+    class="ag-theme-balham-dark"
+    [rowData]="rowData"
+    [columnDefs]="columnDefs"
+    [defaultColDef]="defaultColDef"
+    [rowSelection]="rowSelection"
+    (gridReady)="onGridReady($event)"
+    (cellValueChanged)="onCellChange($event)"
+    suppressColumnVirtualisation=true
+    >
+</ag-grid-angular>
+</div>
+  </div>

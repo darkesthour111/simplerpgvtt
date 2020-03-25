@@ -1,0 +1,9 @@
+<ng-select [items]="data.campaignData.availableMaps"
+id="mapSelect"
+bindLabel="name"
+placeholder="Select map"
+appendTo="body"
+[(ngModel)]="selectedMap">
+</ng-select>
+
+<a class="dialog-links" (click)="changeMap()">Change to Selected Map</a>
