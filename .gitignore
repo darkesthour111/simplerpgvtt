@@ -53,4 +53,4 @@ Thumbs.db
 
 #DB Files
 /db/
-!Sample DB.db
+!/db/Sample DB.db
