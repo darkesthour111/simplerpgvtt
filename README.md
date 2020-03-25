@@ -1,4 +1,4 @@
-## Simple RGT-VTT
+## Simple RPG-VTT
 A (hopefully) Simple Role Playing Game Virtual Table Top
 
 ## Motivation and goals
