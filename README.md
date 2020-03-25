@@ -112,12 +112,26 @@ Table tokens
     - Fields: sizex, sizey, name, url
 
 ## Screenshots
-- Adding a record to the database
-- General map movement
-- Manipulating fog
-- Manipulating Tokens
-- Manipulating Sounds
-- Changing Maps
+- Main Menu to select a campaign or table to modify
+
+![](https://github.com/darkesthour111/simplerpgvtt/blob/master/Screenshots/Main%20screen.png?raw=true)
+- Selecting a table to modify
+
+![](https://github.com/darkesthour111/simplerpgvtt/blob/master/Screenshots/select%20database.png?raw=true)
+
+- Data editing
+
+![](https://github.com/darkesthour111/simplerpgvtt/blob/master/Screenshots/Editing%20Data.png?raw=true)
+- Selecting a Campaign
+
+![](https://github.com/darkesthour111/simplerpgvtt/blob/master/Screenshots/Selecting%20Campaign.png?raw=true)
+
+- Player View(Note that fog hides some of the map, but tokens are visible when not hidden)
+
+![](https://github.com/darkesthour111/simplerpgvtt/blob/master/Screenshots/Player%20View.png?raw=true)
+- DM View(Note that fog is the red see through area)
+
+![](https://github.com/darkesthour111/simplerpgvtt/blob/master/Screenshots/DM%20View.png?raw=true)
 
 ## Installation
 Clone this repo to your desktop and run `npm install` to install all the dependencies.
