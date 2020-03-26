@@ -146,6 +146,8 @@ If you have a lot of data to import I recommend that you import your data via ot
 
 You will need to at least define a single Campaign, Map and Token to get started, the sample database will get you going with default records in those databases.
 
+Your assets can be stored in src/assets. When you add the url for your asset it would be for example 'assets/maps/map1.png'
+
 Once you have defined your assets you are going to want to create a Campaign record and Campaign Map record.
 
 The campaign record is the main identification of the campaign you are interacting with, this way you can have multiple campaigns in the database, however the app was designed with you concurrently running only one campaign at a time.
