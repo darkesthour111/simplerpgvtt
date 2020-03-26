@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "scripts": {
     "ng": "ng",
-    "start": "ng serve | node main.js",
+    "start": "ng serve --open=true | node main.js",
     "build": "ng build",
     "test": "ng test",
     "lint": "ng lint",

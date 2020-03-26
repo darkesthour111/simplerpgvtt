@@ -137,7 +137,7 @@ Table tokens
 Clone this repo to your desktop and run `npm install` to install all the dependencies.
 
 ## Usage
-Once you have completed installation, you can run `npm start` to start the application. You can access it at `localhost:4200`.
+Once you have completed installation, you can run `npm start` to start the application. It will open a browser when Angular is ready. You can however access it at `localhost:4200`.
 
 Sequilize will initialize the database for you, initially from the Sample DB.db file, at this point you will need to define your assets(maps,tokens,sounds).
 
