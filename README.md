@@ -65,9 +65,10 @@ Built with:
 
 ## The Future
 Possible features in future versions:
-- Grid system for maps that dont have grids, would allow snap to grid functionality
+- Grid system for maps that do not have grids, would allow snap to grid functionality
     - Grid system would also allow for possible cone/aoe measurement tools.
 - Improvements to sound system, implementation of keyboard shortcut commands, sound split functionality
+- Add token label functionality, must be able to hide on player view as most players saw it get in the way.
 
 ## Database Schema
 All Tables have the following fields: id, createdAt, updatedAt. ID is used to reference from other tables.
