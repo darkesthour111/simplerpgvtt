@@ -66,11 +66,11 @@ const CampaignMap = sequelize.define('campaignmap', {
     // attributes
     map: {
         type: Sequelize.STRING,
-        allowNull: false
+        // allowNull: false
     },
     campaign: {
         type: Sequelize.STRING,
-        allowNull: false
+        // allowNull: false
     },
 }, {
     // options
